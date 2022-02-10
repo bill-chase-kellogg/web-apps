@@ -1,0 +1,31 @@
+<%
+ranks = [2,3,4,5,6,7,8,9,10,"jack","queen","king","ace"]
+suits = ["hearts", "diamonds", "spades", "clubs"]
+
+rank = ranks.sample
+suit = suits.sample
+
+%>
+
+
+
+<p>
+<img src = "images/cards/<%= rank %>_of_<%= suit %>.svg"</IMG>
+</p>
+
+<%
+ranks = [2,3,4,5,6,7,8,9,10,"jack","queen","king","ace"]
+suits = ["hearts", "diamonds", "spades", "clubs"]
+
+rank1 = ranks.sample
+suit1 = suits.sample
+
+%>
+
+
+
+<p>
+<img src = "images/cards/<%= rank1 %>_of_<%= suit1 %>.svg"</IMG>
+</p>
+
+<a href="/cards">Shuffle up!</a>
